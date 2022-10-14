@@ -8,16 +8,24 @@ to validate the opportunity and they are in the process of getting creative work
 They have provided some acceptance criteria for the basic features
 
 The entrepreneur is looking to you to give them a proof of concept that they can interact with to start firming up the vision for their idea. They are not too fussed with the specific product meta data
-at this point so using [this DummyAPI](https://fakestoreapi.com/) is acceptable. But they have been down this road before with other developers and have specified 
+at this point so using [this Fake Store API](https://fakestoreapi.com/) is acceptable. But they have been down this road before with other developers and have specified 
 they don't want a Proof of Concept that needs to be thrown away, they want something they know can grow and evolve with the vision.
 
 ## Expectations
 
-1. Make decisions to showcase your strengths
-2. Time-box the effort to no more than 2-3 hours
-3. Focus on producing the critical path
-4. Implement using NodeJS, ReactJS and AWS
-5. Do not access the dummyapi directly from the frontend
+You *_DO NOT_* need to satisfy all the requirements.
+
+This challenge is designed to build tension between the time-box and the amount of requirements you satisfy. But if you 
+decide to drop certain requirements, please ensure you can justify the decision
+
+1. Raise a Pull Request with your working solution
+2. Make decisions to showcase your strengths
+3. Time-box the effort to no more than 2-3 hours
+4. Focus on producing the critical path
+5. Use NodeJS for backend and ReactJS for frontend
+6. If you choose to include infra, ensure it is compatible with AWS
+7. Do not access the Fake Store API directly from the frontend
+8. If your submission requires some setup, please detail this to make things easier for the reviewer
 
 ## Selection Criteria
 
