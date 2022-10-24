@@ -13,8 +13,6 @@ they don't want a Proof of Concept that needs to be thrown away, they want somet
 
 ## Expectations
 
-You *_DO NOT_* need to satisfy all the requirements.
-
 This challenge is designed to build tension between the time-box and the amount of requirements you satisfy. But if you 
 decide to drop certain requirements, please ensure you can justify the decision
 
