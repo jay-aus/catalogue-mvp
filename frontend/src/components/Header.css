@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.site-name {
+  font-size: 1.5rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 0.5rem; /* Increase padding to make the search bar bigger */
+  font-size: 16px; /* Adjust font size if needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.profile-icon button {
+  background: none;
+  border: 2px solid #ccc; /* Add a shaded border to the button */
+  border-radius: 50%; /* Rounded border for a circular button */
+  padding: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s; /* Add transition for a smoother effect */
+}
+
+.profile-icon button:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+
+.profile-icon {
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Header.css */
+
+/* ...previous styles... */
+
+.categories-line {
+  background-color: #f0f0f0;
+  padding: 0.5rem 0;
+}
+
+.category-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-list li {
+  margin-right: 1rem;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.category-list li:last-child {
+  margin-right: 0;
+}

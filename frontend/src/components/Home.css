@@ -1,0 +1,7 @@
+/* Product Container Styles */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem; /* Add padding to the product container */
+  }

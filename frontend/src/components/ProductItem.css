@@ -1,0 +1,36 @@
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  width: calc(20% - 20px); /* Adjust as needed */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  flex: 1; /* Let the image expand to take remaining vertical space */
+  width: calc(20% - 20px); ;
+  height: undefined; /* Set max height to maintain aspect ratio */
+  object-fit: contain; /* Use contain to fit the image within the box */
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
