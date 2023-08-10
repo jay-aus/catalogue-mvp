@@ -1,5 +1,5 @@
 import fetchData from './fetchData.mjs';
-const BASE_URL = 'https://fakestoreapi.com';
+const BASE_URL = process.env.BASE_URL;
 
 const getCategoryData = async (req, res, next) => {
   try {
