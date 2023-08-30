@@ -26,3 +26,14 @@ After the containers are up and running, the frontend should be accessible at ht
 4. You can enter a search text in the search bar and you should be able to see if any products matching the search criteria are returned
 
 5. On click of Enquire button on product details page you should see a popup asking for contact information which you can submit
+
+### Enquiry
+```
+GIVEN I am viewing a product
+  AND I am interested in a product 
+  AND I click on the Enquire button
+  AND I complete the subsequent form with my contact details
+ WHEN I submit the form
+ THEN the sales inbox will receive an email
+  AND the customer will see a "Thank you" message
+```
