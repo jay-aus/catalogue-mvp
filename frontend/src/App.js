@@ -21,7 +21,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/category/:categoryName" element={<ProductsByCategory />} />
           <Route path="/search" element={<ProductsBySearch searchString={searchQuery} />} />
-          {/* Add a route for the product details page */}
           <Route path="/product/:productId" element={<ProductDetails />} />
         </Routes>
       </div>

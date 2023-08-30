@@ -1,4 +1,4 @@
-import { getAllProducts } from './productMiddleware.mjs';
+import { getAllProducts } from './productMiddleware.js';
 
 const searchProducts = async (searchTerm) => {
   try {

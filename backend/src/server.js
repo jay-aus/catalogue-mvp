@@ -1,8 +1,8 @@
 import express from 'express';
-import productRoute from './routes/productRoute.mjs'; // Update the paths as needed
-import categoryRoute from './routes/categoryRoute.mjs';
-import enquiryRoute from './routes/enquiryRoute.mjs';
-import searchRoute from './routes/searchRoute.mjs';
+import productRoute from './routes/productRoute.js'; // Update the paths as needed
+import categoryRoute from './routes/categoryRoute.js';
+import enquiryRoute from './routes/enquiryRoute.js';
+import searchRoute from './routes/searchRoute.js';
 import bodyParser from "body-parser";
 import cors from "cors";
 

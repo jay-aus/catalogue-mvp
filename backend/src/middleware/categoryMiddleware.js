@@ -1,4 +1,4 @@
-import fetchData from './fetchData.mjs';
+import fetchData from './fetchData.js';
 const BASE_URL = process.env.BASE_URL;
 
 const getCategoryData = async (req, res, next) => {

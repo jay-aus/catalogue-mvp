@@ -1,5 +1,5 @@
 import express from 'express';
-import getCategoryData from '../middleware/categoryMiddleware.mjs';
+import getCategoryData from '../middleware/categoryMiddleware.js';
 
 const router = express.Router();
 

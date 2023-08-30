@@ -1,6 +1,6 @@
-import fetchData from './fetchData.mjs';
+import fetchData from './fetchData.js';
 const BASE_URL = process.env.BASE_URL;
-import { getTopRatedProducts } from '../api/products/products.mjs';
+import { getTopRatedProducts } from '../api/products/products.js';
 
 const getAllProducts = async (req, res, next) => {
   try {
