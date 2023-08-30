@@ -1,5 +1,5 @@
 import express from 'express';
-import { getProductData,getCategoryProductData,getProductItemDetails }  from '../middleware/productMiddleware.js';
+import { getProductData,getCategoryProductData,getProductItemDetails }  from '../apiService/productService.js';
 
 const router = express.Router();
 

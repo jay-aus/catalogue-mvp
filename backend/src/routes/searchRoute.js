@@ -1,5 +1,5 @@
 import express from 'express';
-import searchProducts from '../middleware/searchMiddleware.js';
+import searchProducts from '../apiService/searchService.js';
 
 const router = express.Router();
 

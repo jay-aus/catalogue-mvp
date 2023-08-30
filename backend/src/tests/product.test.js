@@ -1,9 +1,9 @@
 import request from 'supertest';
 import express from 'express';
-import { getAllProducts } from '../middleware/productMiddleware';
+import { getAllProducts } from '../apiService/productService';
 import { getTopRatedProducts } from  '../api/products/products';
 
-jest.mock('../middleware/productMiddleware');
+jest.mock('../middleware/productService');
 
 const app = express();
 
