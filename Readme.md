@@ -1,4 +1,3 @@
-# Code Challenge
 ## Scenario
 
 An entrepreneur has big plans for their idea and have determined that something custom needs to be built. The MVP however, is rather straightforward - a catalogue site.
